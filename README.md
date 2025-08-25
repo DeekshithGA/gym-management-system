@@ -9,13 +9,7 @@ A modern, feature-rich Gym Management System built with web technologies to effi
 - [Overview](#overview)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Folder Structure](#folder-structure)
-- [Testing](#testing)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+
 
 ---
 
@@ -54,5 +48,5 @@ This Gym Management System helps gyms to streamline their operations including m
 Author
 [Deekshith G A] - Creator and maintainer
 
-1. Clone the repository:
+
 
