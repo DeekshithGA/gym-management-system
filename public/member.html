@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Member Dashboard - Gym Management</title>
+<link rel="stylesheet" href="css/style.css" />
+<script defer src="js/member.js"></script>
+<script defer src="js/progressTracker.js"></script>
+<script defer src="js/dietDetails.js"></script>
+<script defer src="js/notifications.js"></script>
+</head>
+<body>
+<header>
+  <h1>Welcome, <span id="memberName">Member</span></h1>
+  <nav>
+    <ul>
+      <li><a href="#progressSection">Progress Tracker</a></li>
+      <li><a href="#dietSection">Diet Plan</a></li>
+      <li><a href="#attendanceSection">Attendance</a></li>
+      <li><a href="#notificationsSection">Notifications</a></li>
+      <li><a href="#messagesSection">Messages</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section id="profileSection">
+    <h2>Your Profile</h2>
+    <img id="profilePhoto" src="assets/default-profile.png" alt="Profile Photo" width="100" height="100"/>
+    <p><strong>Email:</strong> <span id="memberEmail"></span></p>
+    <p><strong>Membership Status:</strong> Active</p>
+    <button onclick="editProfile()">Edit Profile</button>
+  </section>
+
+  <section id="progressSection">
+    <h2>Progress Tracker</h2>
+    <div id="progressChart"></div>
+    <button onclick="openLogProgressModal()">Log New Progress</button>
+    <div id="progressLogList"></div>
+  </section>
+
+  <section id="dietSection">
+    <h2>Diet Plan</h2>
+    <div id="currentDietPlan"></div>
+    <button onclick="downloadDietPlan()">Download as PDF</button>
+    <button onclick="editDietPlan()">Request Diet Plan Update</button>
+  </section>
+
+  <section id="attendanceSection">
+    <h2>Attendance Overview</h2>
+    <p>Days Present This Month: <span id="attendanceCount"></span></p>
+    <button onclick="viewAttendanceHistory()">View Attendance History</button>
+  </section>
+
+  <section id="notificationsSection">
+    <h2>Notifications</h2>
+    <ul id="notificationList"></ul>
+  </section>
+
+  <section id="messagesSection">
+    <h2>Messages with Trainer/Admin</h2>
+    <div id="chatWindow"></div>
+    <textarea id="chatInput" placeholder="Write a message..."></textarea>
+    <button onclick="sendMessage()">Send</button>
+  </section>
+</main>
+
+<footer>
+  <p>© 2025 Gym Management System</p>
+</footer>
+
+<script>
+  // Example initialization logic, replace with real user data fetch and UI updates
+  document.getElementById('memberName').textContent = 'John Doe';
+  document.getElementById('memberEmail').textContent = 'john.doe@example.com';
+
+  // Load progress data, diet plans, attendance count, notifications etc.
+  // Methods like loadProgressChart(), loadDietPlan(), loadNotifications() must be implemented in linked JS files
+
+  function editProfile() {
+    alert('Profile edit functionality coming soon!');
+  }
+
+  function openLogProgressModal() {
+    alert('Open modal to log progress!');
+  }
+
+  function downloadDietPlan() {
+    alert('Diet plan download feature coming soon!');
+  }
+
+  function editDietPlan() {
+    alert('Request diet plan update functionality coming soon!');
+  }
+
+  function viewAttendanceHistory() {
+    alert('Showing detailed attendance history!');
+  }
+
+  function sendMessage() {
+    const input = document.getElementById('chatInput');
+    const msg = input.value.trim();
+    if (msg) {
+      alert('Sending message: ' + msg);
+      input.value = '';
+      // Implement actual message sending with JS chat module integration
+    }
+  }
+</script>
+
+</body>
+</html>
