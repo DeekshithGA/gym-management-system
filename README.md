@@ -21,11 +21,6 @@ Deployment Link - [gym-management-system-abid.vercel.app](https://gms.tajwar.app
 
 ## Installation
 
-```Clone the repository: git clone https://github.com/TajwarSaiyeed/gym-management-system.git```
-
-```Install dependencies: cd gym-management-system && npm install```
-
-
 Create a `.env.local` file in the root directory and add your environment variables:
 
 ```
