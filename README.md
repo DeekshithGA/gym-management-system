@@ -17,6 +17,8 @@ The Gym Management System includes the following features:
 - Notifications
 - Responsive Design
 
+Deployment Link - gym-management-system-abid.vercel.app
+
 ## Installation
 
 ```Clone the repository: git clone https://github.com/TajwarSaiyeed/gym-management-system.git```
@@ -343,14 +345,4 @@ For detailed information about each page and functionality, please refer to the 
 
 Contributions to the Gym Management System are welcome! Feel free to fork the repository, create a new branch, and submit pull requests.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgements
-
-- This project was inspired by the need for a comprehensive gym management system.
-- Special thanks to [TajwarSaiyeed](https://github.com/TajwarSaiyeed) for creating and sharing this project.
-
-For detailed usage instructions and implementation details, please refer to the [GitHub Repository](https://github.com/TajwarSaiyeed/gym-management-system).
 
