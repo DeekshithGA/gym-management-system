@@ -17,7 +17,7 @@ The Gym Management System includes the following features:
 - Notifications
 - Responsive Design
 
-Deployment Link - gym-management-system-abid.vercel.app
+Deployment Link - [gym-management-system-abid.vercel.app](https://gms.tajwar.app/profile)
 
 ## Installation
 
@@ -81,7 +81,6 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The Gym Management System is a comprehensive web application designed to facilitate the management of a fitness center or gym. It offers a range of features for different user roles, including administrators, trainers, and students. This documentation provides an overview of the various pages and functionalities available in the system.
 
-The Gym Management System repository can be found here: [GitHub Repository](https://github.com/TajwarSaiyeed/gym-management-system)
 
 ## Authentication Pages <a name="authentication-pages"></a>
 
@@ -327,7 +326,7 @@ Features:
 - Navigate to Relevant Pages from Notifications
   Access Role: Admin, Trainer, Student
 
-This documentation provides an overview of the various pages, features, and functionalities available in the Gym Management System. For detailed usage instructions and implementation details, please refer to the [GitHub Repository](https://github.com/TajwarSaiyeed/gym-management-system).
+This documentation provides an overview of the various pages, features, and functionalities available in the Gym Management System. For detailed usage instructions and implementation details, please refer to the [GitHub Repository](https://github.com/DeekshithGA/gym-management-system.git).
 
 
 ## Deploy on Vercel <a name="deploy"></a>
